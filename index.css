@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* { 
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  display: flex;
+  justify-content: center;  /* ------  Alinhar itens na HORIZONTAL */
+  align-items: center;   /* ------- Alinhar itens na VERTICAL */
+}
+
+
+
+.nome-carros {
+  text-decoration: underline;
+  text-align: center;
+  flex-direction: column;
+  margin: 10%;
+}
+
+
+.carros img {
+  transition: 1s;
+  box-shadow: 0px 0px 10px 2px rgb(255, 0, 0);
+  width: 250px;
+  height: auto;
+  margin: 5%;
+}
+
+.carros img:hover {
+  transition: 1s;
+  width: 350px;
+  height: auto;
+}
